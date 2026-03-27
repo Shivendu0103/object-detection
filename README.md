@@ -35,7 +35,7 @@ A premium, real-time object detection system powered by the latest **YOLO (You O
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/Shivendu0103/object-detection>
    cd "c v object detection"
    ```
 
