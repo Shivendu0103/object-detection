@@ -102,7 +102,7 @@ def start_realtime_detection(model_path="yolov8s-world.pt"):
                 cv2.putText(img, label, (x1 + 2, y1 - 7), 
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1)
 
-        # 6. Display FPS
+        # 6. Display FPS-
         new_frame_time = time.time()
         fps = 1 / (new_frame_time - prev_frame_time) if (new_frame_time - prev_frame_time) > 0 else 0
         prev_frame_time = new_frame_time
