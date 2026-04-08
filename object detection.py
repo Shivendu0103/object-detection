@@ -10,8 +10,7 @@ def start_realtime_detection(model_path="yolov8s-world.pt"):
     Automatically handles both YOLO-World (open-vocabulary) 
     and standard YOLO models (custom trained).
     
-    Args:
-        model_path (str): Path to the .pt model file. 
+    rgs:        model_path (str): Path to the .pt model file. 
                           Can be a standard YOLOv8 model or a YOLO-World model.
     """
     # 1. Determine Model Type
@@ -133,7 +132,6 @@ if __name__ == "__main__":
     # 4. Use your OWN custom trained model (.pt file)
     # model_file = "path/to/your/custom_model.pt" 
     
-    # Note: YOLO26 is NMS-free and significantly faster on edge devices.
-    # It is fully supported by the current Ultralytics library.
+   
     
     start_realtime_detection(model_path=model_file)
